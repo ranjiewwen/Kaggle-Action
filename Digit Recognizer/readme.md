@@ -24,7 +24,7 @@
 - #'dict' object has no attribute 'iteritems'  Python3.5中：iteritems变为items
 - #python 3.5: TypeError: a bytes-like object is required, not 'str';出现该错误往往是通过open()函数打开文本文件时，使用了‘rb’属性
 - 但是result的格式不对（没有头，然后隔行有数），然后自己开始对CSV格式操作不熟，费了很大的劲才弄成提交的格式
-- # 那么获得奇数的语句print x[::2];偶数的语句print x[1::2]
+- #那么获得奇数的语句print x[::2];偶数的语句print x[1::2]
 
 ```python
 
