@@ -51,13 +51,25 @@ def saveCsvfile(listfile):
 - 其中将训练，验证，测试完整实现，可视化卷积特征；代码写法很值得学习
 - 参考：[https://www.kaggle.com/ranjiewen/tensorflow-deep-nn](https://www.kaggle.com/ranjiewen/tensorflow-deep-nn)
 - precision：0.99242
-- 2015.09.17实践
+- 2017.09.17实践
 
 #### **遇到的问题（issue）**
 
 - 基本都是按照kernel实现，很清楚
 - 训练的电脑需要用GPU，可能会快些，内存消耗比较大
 - 尝试修改参数，能否提高指标
+
+### CNN+BN-method
+
+- 参考：[https://www.kaggle.com/ranjiewen/99-45-cnn-batchnorm-ensembling](https://www.kaggle.com/ranjiewen/99-45-cnn-batchnorm-ensembling)
+- 跑完代码整体感觉，代码可读性不强，没有之前method2的封装好
+- 同样的代码在windows(py3.5)下和utuntu(py2.7)效果不一样，有些用法不一样，比如py2.7除法需要加float类型转换
+- epoch=1，精度不好0.8+；当epoch=10时：precision：0.9887
+- 作者说自己能达到0.99+,不知道怎么finetune的方法
+- 可读性没有method2
+- 2017.10.30实践
+
+
 
 ### Reference
 
