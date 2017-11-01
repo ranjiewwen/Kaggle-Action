@@ -77,7 +77,7 @@ def saveCsvfile(listfile):
 - 参考：[https://www.kaggle.com/ranjiewen/tensorflow-deep-convolutional-net-resnet](https://www.kaggle.com/ranjiewen/tensorflow-deep-convolutional-net-resnet)
 - 代码整体质量层次清晰，值得学习
 -  python2.7报error`labels_flat = data[[0]].values.ravel()`,py3.5可运行；在下面讨论中提到了解决方法
-- **epoch=1,precision=0.982;epoch=20,precision=0.98971**
+- **epoch=1,precision=0.982;epoch=20,precision=0.98971**，**when epoch=30,precision=0.99214**
 - 2017.10.30实践
 - 参考：[ResNet using Keras](https://www.kaggle.com/icyblade/resnet-using-keras)
 
