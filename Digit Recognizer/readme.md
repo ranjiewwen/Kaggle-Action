@@ -1,6 +1,8 @@
 
 ## Digit Recognizer
 
+- [Digit Recognizer source code](https://github.com/ranjiewwen/Kaggle-Action/tree/master/Digit%20Recognizer)
+
 - **Practice Skills**
 
     - Computer vision fundamentals including simple neural networks
@@ -14,7 +16,7 @@
 
 - python实现
 - 参考：[http://blog.csdn.net/u012162613/article/details/41929171#comments](http://blog.csdn.net/u012162613/article/details/41929171#comments)
-- precision:0.96400
+- **precision:0.96400**
 - 2017.09.15实践
 
 #### **遇到的问题（issue）**
@@ -50,7 +52,7 @@ def saveCsvfile(listfile):
 - 完整的tensorflow实现两个卷积（conv+relu+pool）+两个fc
 - 其中将训练，验证，测试完整实现，可视化卷积特征；代码写法很值得学习
 - 参考：[https://www.kaggle.com/ranjiewen/tensorflow-deep-nn](https://www.kaggle.com/ranjiewen/tensorflow-deep-nn)
-- precision：0.99242
+- **precision：0.99242**
 - 2017.09.17实践
 
 #### **遇到的问题（issue）**
@@ -58,20 +60,37 @@ def saveCsvfile(listfile):
 - 基本都是按照kernel实现，很清楚
 - 训练的电脑需要用GPU，可能会快些，内存消耗比较大
 - 尝试修改参数，能否提高指标
+- **改进点**:1.改网络结构添加卷积层，做两个卷积操作然后在maxpool; 2.做数据增强（Data augmentation）
 
-### CNN+BN-method
+### CNN+BN-method3
 
 - 参考：[https://www.kaggle.com/ranjiewen/99-45-cnn-batchnorm-ensembling](https://www.kaggle.com/ranjiewen/99-45-cnn-batchnorm-ensembling)
 - 跑完代码整体感觉，代码可读性不强，没有之前method2的封装好
 - 同样的代码在windows(py3.5)下和utuntu(py2.7)效果不一样，有些用法不一样，比如py2.7除法需要加float类型转换
-- epoch=1，精度不好0.8+；当epoch=10时：precision：0.9887
+- epoch=1，精度不好0.8+；当epoch=10时：**precision：0.9887**
 - 作者说自己能达到0.99+,不知道怎么finetune的方法
 - 可读性没有method2
 - 2017.10.30实践
 
+### ResNet_method4
+
+- 参考：[https://www.kaggle.com/ranjiewen/tensorflow-deep-convolutional-net-resnet](https://www.kaggle.com/ranjiewen/tensorflow-deep-convolutional-net-resnet)
+- 代码整体质量层次清晰，值得学习
+-  python2.7报error`labels_flat = data[[0]].values.ravel()`,py3.5可运行；在下面讨论中提到了解决方法
+- **epoch=1,precision=0.982;epoch=20,precision=0.98971**
+- 2017.10.30实践
+- 参考：[ResNet using Keras](https://www.kaggle.com/icyblade/resnet-using-keras)
+
+### Keras-cnn-method5
+
+- 参考：[https://www.kaggle.com/yassineghouzam/introduction-to-cnn-keras-0-997-top-6](https://www.kaggle.com/yassineghouzam/introduction-to-cnn-keras-0-997-top-6)
+- **epoch=30,precision=0.99557**作者的精度更高一些
+- jupyter文件，文章的数据增强方法提升了效果，可以再method2上试试
+- 使用`Confusion matrix can be very helpfull to see your model drawbacks.`分析错误的方法
 
 
 ### Reference
 
+- 发现真正认真查看kernel下面的问题，会学到更多的东西
 - [[kaggle实战] Digit Recognizer——sklearn从KNN,LR,SVM,RF到深度学习](http://blog.csdn.net/dinosoft/article/details/50734539)
 - 好奇很大大神取得了100%的precision，还需要努力
