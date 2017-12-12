@@ -116,6 +116,11 @@ validation_generator = test_datagen.flow_from_directory(
     class_mode='binary')
 
 model.summary() # prints a summary representation of your model.
+# let's visualize layer names and layer indices to see how many layers
+# we should freeze:
+for i, layer in enumerate(base_model.layers):
+    print(i, layer.name)
+
 
 from keras.utils import plot_model
 plot_model(model, to_file='model.png')
