@@ -5,7 +5,11 @@
 
 ## kaggle practice
 
+### 练习项目
 - [Digit Recognizer](https://www.kaggle.com/c/digit-recognizer)
+
+
+### 待练习
 - [Titanic: Machine Learning from Disaster](https://www.kaggle.com/c/titanic)
 - [Carvana Image Masking Challenge](https://www.kaggle.com/c/carvana-image-masking-challenge)
 - [Invasive Species Monitoring](https://www.kaggle.com/c/invasive-species-monitoring)
