@@ -7,7 +7,9 @@
 
 ### 练习项目
 - [Digit Recognizer](https://www.kaggle.com/c/digit-recognizer)
-
+- Dog_Breed_Identification
+- Iceberg_Classifier_Challenge
+- dogs_vs_cats
 
 ### 待练习
 - [Titanic: Machine Learning from Disaster](https://www.kaggle.com/c/titanic)
