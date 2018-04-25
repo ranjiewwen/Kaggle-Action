@@ -24,6 +24,7 @@
 - [State Farm Distracted Driver Detection](https://www.kaggle.com/c/state-farm-distracted-driver-detection) :Can computer vision spot distracted drivers?
 
 - [Carvana Image Masking Challenge](https://www.kaggle.com/c/carvana-image-masking-challenge)
+- [Ultrasound Nerve Segmentation](https://www.kaggle.com/c/ultrasound-nerve-segmentation): https://github.com/raghakot/ultrasound-nerve-segmentation
 - [2018 Data Science Bowl](https://www.kaggle.com/c/data-science-bowl-2018):Find the nuclei in divergent images to advance medical discovery
 
 - [Dstl Satellite Imagery Feature Detection](https://www.kaggle.com/c/dstl-satellite-imagery-feature-detection)
