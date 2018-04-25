@@ -2,6 +2,7 @@
 
 - start practice on kaggle some demo , so excited!
 - there is some demo, research implement detail and learn more
+- [iphysresearch/DataSciComp: Active Competitons to Join ](https://github.com/iphysresearch/DataSciComp)
 
 ## kaggle practice
 
