@@ -10,6 +10,7 @@
 
 - [Dog_Breed_Identification](https://www.kaggle.com/c/dog-breed-identification)
 - [Iceberg_Classifier_Challenge](https://www.kaggle.com/c/statoil-iceberg-classifier-challenge)
+- [Humpback Whale Identification Challenge](https://www.kaggle.com/c/whale-categorization-playground)
 
 ### 练习项目
 
@@ -20,6 +21,7 @@
 
 - [Titanic: Machine Learning from Disaster](https://www.kaggle.com/c/titanic)
 - [Invasive Species Monitoring](https://www.kaggle.com/c/invasive-species-monitoring)
+- [The Nature Conservancy Fisheries Monitoring](https://www.kaggle.com/c/the-nature-conservancy-fisheries-monitoring)
 
 - [State Farm Distracted Driver Detection](https://www.kaggle.com/c/state-farm-distracted-driver-detection) :Can computer vision spot distracted drivers?
 
