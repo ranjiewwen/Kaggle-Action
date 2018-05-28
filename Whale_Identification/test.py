@@ -45,3 +45,20 @@ def plot_image_for_filenames(filenames, labels, rows=4):
 img = Image.open('{INPUT_DIR}/train/ff38054f.jpg'.format(INPUT_DIR=INPUT_DIR))
 img_arr=img_to_array(img)
 plt.imshow(img)
+
+
+from sklearn.preprocessing import StandardScaler, OneHotEncoder, LabelEncoder
+
+class LabelOneHotEncoder():
+    def __init__(self):
+        self.ohe = OneHotEncoder()
+        self.le = LabelEncoder()
+    def fit_transform(self, x):
+        features = self.le.fit_transform(x)
+        return self.ohe.fit_transform( features.reshape(-1,1))
+    def transform( self, x):
+        return self.ohe.transform( self.la.transform( x.reshape(-1,1)))
+    def inverse_tranform( self, x):
+        return self.le.inverse_transform( self.ohe.inverse_tranform( x))
+    def inverse_labels( self, x):
+        return self.le.inverse_transform( x)
